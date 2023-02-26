@@ -1,0 +1,23 @@
+.menuItemRow {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+}
+
+.menuItemRow:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.menuItemImage{
+    width: 35vw;
+    height: auto;
+}
+.menuItemImage:nth-last-of-type(even){
+    width: 35vw;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menuItemTextData{
+    font-size: 2.2rem;
+}
